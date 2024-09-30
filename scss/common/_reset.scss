@@ -22,23 +22,3 @@ input,
 textarea {
 	outline: 0;
 }
-body {
-	width: 100%;
-	overflow-x: hidden;
-	background: #efefef;
-}
-
-//scrollbar style
-::-webkit-scrollbar {
-	width: 6px;
-}
-::-webkit-scrollbar-track {
-	background: transparent;
-}
-::-webkit-scrollbar-thumb {
-	background: rgba(0, 0, 0, 0.5);
-	border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-	background: rgba(0, 0, 0, 1);
-}

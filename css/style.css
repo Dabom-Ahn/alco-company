@@ -28,29 +28,6 @@ textarea {
   outline: 0;
 }
 
-body {
-  width: 100%;
-  overflow-x: hidden;
-  background: #efefef;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 0, 0);
-}
-
 main {
   padding: 10vh 15vw;
 }
@@ -429,9 +406,9 @@ footer article p {
 }
 
 .scroller {
-  width: 20px;
+  width: 10px;
   position: fixed;
-  right: 50px;
+  right: 40px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
@@ -450,6 +427,12 @@ footer article p {
 .scroller li.on {
   height: 100px;
   background: #000;
+}
+
+@media screen and (max-width: 999px) {
+  .scroller {
+    right: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
