@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Home</title>
-		<link rel="stylesheet" href="css/style.css" />
-		<script src="https://kit.fontawesome.com/1d8113f26b.js" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bezier-easing@2.1.0/dist/bezier-easing.min.js"></script>
-		<script type="module" src="js/anime.js"></script>
-		<script type="module" src="js/common.js"></script>
-		<script type="module" src="js/main.js"></script>
-	</head>
 
-	<body class="home">
-		<header>
-			<h1><a href="index.html" title="메인페이지 이동">ALPACO</a></h1>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="https://kit.fontawesome.com/1d8113f26b.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bezier-easing@2.1.0/dist/bezier-easing.min.js"></script>
+	<script type="module" src="js/anime.js"></script>
+	<script type="module" src="js/common.js"></script>
+	<script type="module" src="js/main.js"></script>
+</head>
 
-			<nav>
-				<ul id="gnb">
-					<li><a href="member.html">MEMBERS</a></li>
-					<li><a href="gallery.html">GALLERY</a></li>
-					<li><a href="youtube.html">YOUTUBE</a></li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
+<body class="home">
+	<header>
+		<h1><a href="index.html" title="메인페이지 이동">ALPACO</a></h1>
 
-				<ul class="sns">
-					<li>
-						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa-brands fa-youtube"></i></a>
-					</li>
-					<li>
-						<a href="#"><i class="fa-solid fa-envelope"></i></a>
-					</li>
-				</ul>
-			</nav>
+		<nav>
+			<ul id="gnb">
+				<li><a href="member.html">MEMBERS</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="youtube.html">YOUTUBE</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
 
-			<button><i class="fa-solid fa-bars"></i></button>
-		</header>
-
-		<main>
-			<figure id="visual">
-				<video src="img/vidBg.mp4" muted autoplay loop></video>
-
-				<div class="slogan">
-					<article>
-						<h2>UI/UX DESIGN</h2>
-						<h2>FRONTEND DEV</h2>
-						<p>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
-							Commodi, blanditiis voluptatem ea quia consequatur necessitatibus numquam. Debitis esse harum ipsa!
-						</p>
-					</article>
-
-					<nav>
-						<button><i class="fa-solid fa-file"></i>ALPACO</button>
-					</nav>
-				</div>
-			</figure>
-			<section id="banner"></section>
-			<section id="news"></section>
-			<section id="info"></section>
-		</main>
-
-		<footer>
-			<h1>ALPACO</h1>
-
-			<article>
-				<ul>
-					<li><a href="#">Family Site</a></li>
-					<li><a href="#">Terms & Policy</a></li>
-					<li><a href="#">Contact us</a></li>
-					<li><a href="#">Location</a></li>
-				</ul>
-				<p>2024 ALPACO ALL RIGHTS RESERVED.</p>
-			</article>
-		</footer>
-
-		<!-- indicator -->
-		<ul class="scroller">
-			<li class="on"></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-
-		<aside class="mobilePanel">
-			<h1>
-				<a href="index.html">ALPACO</a>
-				<span>UI/UX DESIGN & DEVELOPMENT</span>
-			</h1>
-
-			<ul>
+			<ul class="sns">
 				<li>
-					<a href="member.html"><i class="fa-solid fa-face-smile"></i><span>Members</span></a>
+					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
 				</li>
 				<li>
-					<a href="gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a>
+					<a href="#"><i class="fa-brands fa-youtube"></i></a>
 				</li>
 				<li>
-					<a href="youtube.html"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a>
-				</li>
-				<li>
-					<a href="contact.html"><i class="fa-solid fa-circle-info"></i><span>Contact</span></a>
+					<a href="#"><i class="fa-solid fa-envelope"></i></a>
 				</li>
 			</ul>
-		</aside>
-	</body>
+		</nav>
+
+		<button><i class="fa-solid fa-bars"></i></button>
+	</header>
+
+	<main>
+		<figure id="visual" class="on">
+			<video src="img/vidBg.mp4" muted autoplay loop></video>
+
+			<div class="slogan">
+				<article>
+					<h2>UI/UX DESIGN</h2>
+					<h2>FRONTEND DEV</h2>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br />
+						Commodi, blanditiis voluptatem ea quia consequatur necessitatibus numquam. Debitis esse harum
+						ipsa!
+					</p>
+				</article>
+
+				<nav>
+					<button><i class="fa-solid fa-file"></i>ALPACO</button>
+				</nav>
+			</div>
+		</figure>
+		<section id="banner"></section>
+		<section id="news"></section>
+		<section id="info"></section>
+	</main>
+
+	<footer>
+		<h1>ALPACO</h1>
+
+		<article>
+			<ul>
+				<li><a href="#">Family Site</a></li>
+				<li><a href="#">Terms & Policy</a></li>
+				<li><a href="#">Contact us</a></li>
+				<li><a href="#">Location</a></li>
+			</ul>
+			<p>2024 ALPACO ALL RIGHTS RESERVED.</p>
+		</article>
+	</footer>
+
+	<!-- indicator -->
+	<ul class="scroller">
+		<li class="on"></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<aside class="mobilePanel">
+		<h1>
+			<a href="index.html">ALPACO</a>
+			<span>UI/UX DESIGN & DEVELOPMENT</span>
+		</h1>
+
+		<ul>
+			<li>
+				<a href="member.html"><i class="fa-solid fa-face-smile"></i><span>Members</span></a>
+			</li>
+			<li>
+				<a href="gallery.html"><i class="fa-solid fa-image"></i><span>Gallery</span></a>
+			</li>
+			<li>
+				<a href="youtube.html"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a>
+			</li>
+			<li>
+				<a href="contact.html"><i class="fa-solid fa-circle-info"></i><span>Contact</span></a>
+			</li>
+		</ul>
+	</aside>
+</body>
+
 </html>
